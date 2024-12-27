@@ -1,4 +1,5 @@
 OCR-Of-Bank-Statements
+
 A Python-based application that integrates OCR and NLP technologies to extract relevant financial information from images stored in specific Cloudinary folders. 
 The application preprocesses images, performs OCR using EasyOCR, and refines the extracted data with Cohere's NLP API. Results are presented in a user-friendly interface powered by Gradio.
 
