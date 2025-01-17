@@ -12,7 +12,7 @@ import cohere
 import gradio as gr
 
 # Initialize Cohere client
-cohere_client = cohere.Client("1H2b8YEfjn9o1TuQR7eLfI24nbxbcLEz5XFuZqUG")  # Replace with your API Key
+cohere_client = cohere.Client("1H2b8YEfjn9o1TuQR7eLfI24nbxbcLEz5XFuZqU")  # Replace with your API Key
 
 # Initialize the EasyOCR reader for English language
 reader = Reader(['en'])
@@ -21,7 +21,7 @@ reader = Reader(['en'])
 config(
     cloud_name="dmwxgv4iv",
     api_key="618415941598468",
-    api_secret="Ssc5Z92R6jXsH7ScreydHdTRNos"
+    api_secret=" "
 )
 
 # Preprocess image to make it more OCR-friendly
